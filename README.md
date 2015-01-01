@@ -197,11 +197,11 @@ The user's username.
 
 ### client.session
 
-The user's session, as returned by the Yggdrasil system. 
+The user's session, as returned by the Yggdrasil system.
 
 ### Not Immediately Obvious Data Type Formats
 
-Note : almost all data formats can be understood by looking at the packet 
+Note : almost all data formats can be understood by looking at the packet
 structure in lib/protocol.js
 
 #### entityMetadata
@@ -216,7 +216,7 @@ Value looks like this:
 ]
 ```
 
-Where the key is the numeric metadata key and the value is the value of the 
+Where the key is the numeric metadata key and the value is the value of the
 correct data type.
 
 ## Testing
@@ -375,7 +375,7 @@ NODE_DEBUG="minecraft-protocol" node [...]
  * Updated protocol version to support 1.7.6
 
 ### 0.12.0
- 
+
  * Updated protocol version to support 1.7.2
  * Overhaul the serializer backend to be more general-purpose and future-proof.
  * Support listening packets by name (thanks [deathcap](https://github.com/deathcap))
