@@ -1,4 +1,2 @@
-/node_modules
-/test/npm-debug.log
-/test/server
-.DS_Store
+node_modules/
+dist/
